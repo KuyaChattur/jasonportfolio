@@ -62,36 +62,32 @@ nav a.Active{
   border-bottom: 3px solid #0f1b6a;
 }
 
-@media (max-width: 768px) {
-
-  nav {
-    position: absolute;
+@media(max-width:50px){
+  nav{
+    position:absolute;
     top: 100%;
     right: 0;
     width: 40%;
-    background-color: black;
-
-    border-left: 3px solid #273e83;
+    border-left:3px solid#273e83;
     border-bottom: 3px solid #273e83;
     border-bottom-left-radius: 2rem;
+    padding: 1rem solid;
+    background-color: black;
     border-top: 0.1rem solid #273e83;
-
-    padding: 1rem;
-    display: none; 
   }
 
-  nav.active {
+  nav.Active{
     display: block;
   }
 
-  nav a {
+  nav a{
     display: block;
     font-size: 2rem;
     margin: 3rem 0;
   }
 
   nav a:hover,
-  nav a.active {
+  nav a.Active{
     padding: 1rem;
     border-radius: 0.5rem;
     border-bottom: 0.5rem solid #273e83;
