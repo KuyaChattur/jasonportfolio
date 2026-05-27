@@ -62,7 +62,7 @@ nav a.Active{
   border-bottom: 3px solid #0f1b6a;
 }
 
-@media(max-width:99px){
+@media(max-width:100%){
   nav{
     position:absolute;
     top: 100%;
