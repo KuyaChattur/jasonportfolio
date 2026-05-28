@@ -163,6 +163,7 @@ p{
     display: flex;
     text-align: left;
     text-size: 14px;
+    gap: 20px;
     
   }
 }
