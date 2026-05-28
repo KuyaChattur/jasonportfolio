@@ -48,6 +48,8 @@ header{
 }
 
 nav a{
+  display: flex;
+  justtify-content: left;
   font-size: 1.8rem;
   color: white;
   margin-left: 3rem;
