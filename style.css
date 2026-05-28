@@ -62,11 +62,8 @@ nav a.Active{
   border-bottom: 3px solid #0f1b6a;
 }
 
-@media(max-width: 600px){
+@media(max-width: 995px){
   nav{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     position:absolute;
     top: 100%;
     right: 0;
@@ -84,8 +81,9 @@ nav a.Active{
   }
 
   nav a{
-    display: block;
+    display: flex;
     font-size: 2rem;
+    flex-direction: column;
     margin: 3rem 0;
   }
 
