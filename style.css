@@ -157,7 +157,7 @@ p{
   background-color: beige;
 }
 
-@media(max-width: 789px){
+@media(max-width: 1080px){
   nav{
     display: flex;
     text-align: left;
