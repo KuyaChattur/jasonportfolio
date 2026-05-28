@@ -62,39 +62,6 @@ nav a.Active{
   border-bottom: 3px solid #0f1b6a;
 }
 
-@media(max-width: 995px){
-  nav{
-    position:absolute;
-    top: 100%;
-    right: 0;
-    width: 40%;
-    border-left:3px solid#273e83;
-    border-bottom: 3px solid #273e83;
-    border-bottom-left-radius: 2rem;
-    padding: 1rem solid;
-    background-color: black;
-    border-top: 0.1rem solid #273e83;
-  }
-
-  nav.Active{
-    display: block;
-  }
-
-  nav a{
-    display: flex;
-    font-size: 2rem;
-    flex-direction: column;
-    margin: 3rem 0;
-  }
-
-  nav a:hover,
-  nav a.Active{
-    padding: 1rem;
-    border-radius: 0.5rem;
-    border-bottom: 0.5rem solid #273e83;
-  }
-}
-
 section{
   min-height: 100vh;
   padding: 5rem 9% 5rem;
